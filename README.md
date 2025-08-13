@@ -3,6 +3,8 @@ Projeto de Catálago de Filmes para exercitar e demonstrar conhecimentos em cons
 
 Além do consumo de APIs, o projeto também conta com paginação e roteamento de páginas.
 
+💻 [Página do projeto](https://biancassantos.github.io/movies-tmdb)
+
 ## Funcionalidades
 - Pesquisar títulos de filmes
 - Ler informações sobre os filmes
