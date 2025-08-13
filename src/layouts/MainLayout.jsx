@@ -6,9 +6,9 @@ function MainLayout() {
     <>
       <header>
         <nav>
-          <Link to="/"><PiFilmReelFill /></Link>
+          <Link to="/movies-tmdb"><PiFilmReelFill /></Link>
           <ul>
-            <li><NavLink to="/favorites">Favoritos</NavLink></li>
+            <li><NavLink to="/movies-tmdb/favorites">Favoritos</NavLink></li>
           </ul>
         </nav>
       </header>

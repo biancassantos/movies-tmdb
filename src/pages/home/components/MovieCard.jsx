@@ -12,7 +12,7 @@ function MovieCard({ title, year, id, posterPath }) {
       <div>
         <h2>{title.length > 40 ? `${title.substring(0, 37)}...` : title}</h2>
         <span>{year}</span>
-        <Link to={`movie/${id}`}>Detalhes</Link>
+        <Link to={`/movies-tmdb/movie/${id}`}>Detalhes</Link>
       </div>
     </div>
   )

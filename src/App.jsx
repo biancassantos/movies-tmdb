@@ -10,9 +10,9 @@ function App() {
       <Router>
         <Routes>
           <Route element={<MainLayout />}>
-            <Route path="/" element={<Homepage />} />
-            <Route path="movie/:id" element={<MoviePage />} />
-            <Route path="favorites" element={<FavoritesPage />} />
+            <Route path="/movies-tmdb" element={<Homepage />} />
+            <Route path="/movies-tmdb/movie/:id" element={<MoviePage />} />
+            <Route path="/movies-tmdb/favorites" element={<FavoritesPage />} />
           </Route>
         </Routes>
       </Router>
